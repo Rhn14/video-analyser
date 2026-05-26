@@ -22,7 +22,7 @@ import nltk
 from nltk.tokenize import sent_tokenize
 
 # ========== CONFIGURATION ==========
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyAS91sgGororPlC9LMG2bWDsDXtYFd3O8c")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 app = Flask(__name__)
 CORS(app)
 
